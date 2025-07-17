@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<main class="min-h-screen bg-gray-50">
+  <div [@routeAnimations]="o.isActivated ? o.activatedRoute : ''">
+    <router-outlet #o="outlet"></router-outlet>
+  </div>
+</main>
+
+<app-footer></app-footer>
+<app-whatsapp-button></app-whatsapp-button>
