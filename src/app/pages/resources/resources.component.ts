@@ -5,7 +5,7 @@ import { FadeInOnScrollDirective } from '../../components/fade-in-on-scroll.dire
 @Component({
   selector: 'app-resources',
   standalone: true,
-  imports: [CommonModule, FadeInOnScrollDirective],
+  imports: [CommonModule],
   template: `
     <!-- Hero Section -->
     <section
