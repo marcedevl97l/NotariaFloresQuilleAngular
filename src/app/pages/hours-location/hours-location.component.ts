@@ -204,7 +204,7 @@ import { FadeInOnScrollDirective } from '../../components/fade-in-on-scroll.dire
                       Dirección
                     </h4>
                     <p class="text-gray-600 text-lg">
-                      Av. Principal 123, Centro Comercial<br />Lima, Perú
+                      Av. Universitaria 6822 – segundo piso<br />Comas, Lima, Perú
                     </p>
                   </div>
                 </div>
@@ -220,7 +220,7 @@ import { FadeInOnScrollDirective } from '../../components/fade-in-on-scroll.dire
                     <h4 class="font-semibold text-gray-900 text-lg mb-2">
                       Teléfono
                     </h4>
-                    <p class="text-gray-600 text-lg">(01) 234-5678</p>
+                    <p class="text-gray-600 text-lg">(01) 12329738</p>
                   </div>
                 </div>
                 <div
@@ -314,28 +314,32 @@ import { FadeInOnScrollDirective } from '../../components/fade-in-on-scroll.dire
               <i class="fas fa-map text-notaria-blue text-4xl"></i>
               <span>Mapa de Ubicación</span>
             </h3>
-            <div
-              class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl h-96 flex items-center justify-center group-hover:from-gray-200 group-hover:to-gray-300 transition-all duration-500"
-            >
-              <div class="text-center">
-                <i
-                  class="fas fa-map-marker-alt text-gray-400 text-6xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
-                ></i>
-                <p class="text-gray-600 text-xl mb-2">
-                  Mapa interactivo de Google Maps
-                </p>
-                <p class="text-gray-500 text-lg mb-6">
-                  Av. Principal 123, Centro Comercial
-                </p>
-                <a
-                  href="https://maps.google.com"
-                  target="_blank"
-                  class="group inline-flex items-center space-x-3 bg-notaria-blue text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-notaria-blue/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-                >
-                  <i class="fas fa-external-link-alt"></i>
-                  <span>Ver en Google Maps</span>
-                </a>
-              </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500">
+              <iframe
+                src="https://www.google.com/maps?q=Av.+Universitaria+6822,+Comas,+Lima,+Peru&output=embed"
+                width="100%"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-full h-96"
+                title="Ubicación de la Notaría Quille"
+              ></iframe>
+            </div>
+            <div class="mt-6 text-center">
+              <p class="text-gray-600 text-lg mb-4">
+                <i class="fas fa-map-marker-alt text-notaria-blue mr-2"></i>
+                Av. Universitaria 6822 – segundo piso, Comas, Lima, Perú
+              </p>
+              <a
+                href="https://maps.google.com/maps?q=Av.+Universitaria+6822,+Comas,+Lima,+Peru"
+                target="_blank"
+                class="group inline-flex items-center space-x-3 bg-notaria-blue text-white px-6 py-3 rounded-xl font-semibold text-base hover:bg-notaria-blue/90 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                <i class="fas fa-external-link-alt"></i>
+                <span>Abrir en Google Maps</span>
+              </a>
             </div>
           </div>
         </div>
@@ -440,7 +444,7 @@ import { FadeInOnScrollDirective } from '../../components/fade-in-on-scroll.dire
           class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up animation-delay-400"
         >
           <a
-            href="tel:(01) 234-5678"
+            href="tel:(01) 12329738"
             class="group bg-white text-notaria-blue px-10 py-4 rounded-xl font-semibold text-lg hover:bg-notaria-blue/10 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-3"
           >
             <i class="fas fa-phone text-xl"></i>
